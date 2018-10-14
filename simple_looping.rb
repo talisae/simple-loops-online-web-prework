@@ -29,8 +29,6 @@ def until_iterator(number_of_times)
     until number_of_times == 7
       puts "The current number is less than 20."
       number_of_times += 1
-    end
-    end
 end
 
   # code your solution here using the "until" keyword
