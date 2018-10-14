@@ -25,10 +25,10 @@ def while_iterator(number_of_times)
 end
 
 def until_iterator(number_of_times)
-      counter = 0
-    until counter == 20
+      number_of_times = 0
+    until number_of_times == 20
       puts "The current number is less than 20."
-      counter += 1
+      number_of_times += 1
     end
 end
 
